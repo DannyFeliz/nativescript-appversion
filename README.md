@@ -27,46 +27,46 @@ var appversion = require("nativescript-appversion");
 
 #### JavaScript
 ```js
-  appversion.getVersionName().then(function(v) {
-      console.log("Your app's version is: " + v);
-  });
+appversion.getVersionName().then(function(v) {
+    console.log("Your app's version is: " + v);
+});
 ```
 
 #### TypeScript
 ```js
-  appversion.getVersionName().then((v: string) {
-      console.log("Your app's version is: " + v);
-  });
+appversion.getVersionName().then((v: string) => {
+    console.log("Your app's version is: " + v);
+});
 ```
 
 ### getVersionCode
 
 #### JavaScript
 ```js
-  appversion.getVersionCode().then(function(v) {
-      console.log("Your app's version code is: " + v);
-  });
+appversion.getVersionCode().then(function(v) {
+    console.log("Your app's version code is: " + v);
+});
 ```
 
 #### TypeScript
 ```js
-  appversion.getVersionCode().then((v: string) {
-      console.log("Your app's version code is: " + v);
-  });
+appversion.getVersionCode().then((v: string) => {
+    console.log("Your app's version code is: " + v);
+});
 ```
 
 ### getAppId
 
 #### JavaScript
 ```js
-  appversion.getAppId().then(function(id) {
-      console.log("Your app's id is: " + id);
-  });
+appversion.getAppId().then(function(id) {
+    console.log("Your app's id is: " + id);
+});
 ```
 
 #### TypeScript
 ```js
-  appversion.getAppId().then((id: string) {
-      console.log("Your app's id is: " + id);
-  });
+appversion.getAppId().then((id: string) => {
+    console.log("Your app's id is: " + id);
+});
 ```
